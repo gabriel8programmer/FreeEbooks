@@ -1,0 +1,35 @@
+
+/*formatação para o corpo*/
+body {
+    background-color: black;
+}
+
+/*formatação comum a todas as tags header e section*/
+section, header {
+    width: calc(100% - 250px);
+    margin: 0 auto;
+}
+
+/*formatação para o corpo da interface*/
+main#interface {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 150px);
+    margin: 100px auto 0px auto;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*formatação para o cabecalho*/
+header {
+    border-bottom: 2px solid white;
+    margin-top:20px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    font-size: 18pt;
+    font-weight: 600;
+}
+
